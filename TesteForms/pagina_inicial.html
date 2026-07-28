@@ -12,11 +12,11 @@
         <section class="titulo">
             <h1>Teste Forms</h1>
         </section>
-        <section>
+        <section >
             <nav>
-                <button>    
-                    <a href=documentacoes_linguagens.html>LINK DOCUMENTAÇÃO PHP</a>
-                </button>
+                <!-- <button class="meu_botao" >     -->
+                    <a href=documentacoes_linguagens.html class="meu_botao">LINK DOCUMENTAÇÃO PHP </a>
+                <!-- </button> -->
             </nav>
         </section>
     </header>
@@ -28,6 +28,9 @@
                 <form action="login.php", method="post">
                     <label for="nome">Nome:</label>
                     <input type="text" id ="nome" name="nome"/>
+                    <label for="funcao">Função:</label>
+                    <input type="radio" id="funcao" name="funcao" value="cerimoniario" />Cerimoniário
+                    <input type="radio" id="funcao" name="funcao" value="coroinha" />Coroinha
                 </form>
             </fieldset> <!--cria uma linha em volta dos campos de formulário-->
         </main>

@@ -1,11 +1,19 @@
 .titulo {
+
     color: blue;
-    margin-top: ;
+    margin-top: 20px;
     justify-items: center; /*alinha o objeto na horizontal */
     align-items: center; /*alinha o objeto na vertical */
 
 }
 
-button {
-    
+.meu_botao {
+    background-color: rgb(95, 95, 192);
+    color: rgb(236, 236, 236);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px; /* deixa as bordas arredondadas */
+    margin: 5px;
+    text-decoration: none;
 }
