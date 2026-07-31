@@ -1,5 +1,14 @@
 .titulo {
+    
+    color: blue;
+    margin-top: 20px;
+    justify-items: center; /*alinha o objeto na horizontal */
+    align-items: center; /*alinha o objeto na vertical */
 
+}
+
+.h1 {
+    
     color: blue;
     margin-top: 20px;
     justify-items: center; /*alinha o objeto na horizontal */
